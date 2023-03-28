@@ -6,6 +6,6 @@
   <Unicode>True</Unicode>
   <FormatVersion>201</FormatVersion>
   <Fields>
-    <Field Def="f32 Unk00" />
+    <Field Def="f32 scroll_duration" />
   </Fields>
 </PARAMDEF>

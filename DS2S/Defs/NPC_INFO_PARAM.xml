@@ -6,17 +6,17 @@
   <Unicode>True</Unicode>
   <FormatVersion>201</FormatVersion>
   <Fields>
+    <Field Def="s32 deathstone_spawn_delay" />
     <Field Def="s32 Unk00" />
-    <Field Def="s32 Unk04" />
-    <Field Def="s32 Unk08" />
-    <Field Def="s32 Unk0C" />
-    <Field Def="s32 Unk10" />
-    <Field Def="s32 Unk14" />
-    <Field Def="s32 Unk18" />
-    <Field Def="s32 Unk1C" />
-    <Field Def="s32 Unk20" />
-    <Field Def="s32 Unk24" />
-    <Field Def="s32 Unk28" />
-    <Field Def="s32 Unk2C" />
+    <Field Def="s32 npc_death_flag" />
+    <Field Def="s32 revival_cost" />
+    <Field Def="s32 npc_name_swap_param_id" />
+    <Field Def="s32 Unk01" />
+    <Field Def="s32 souls_for_gift_goods_vendor" />
+    <Field Def="s32 souls_for_gift_blacksmith" />
+    <Field Def="s32 int_requirement_for_gift" />
+    <Field Def="s32 fth_requirement_for_gift" />
+    <Field Def="s32 shop_lineup_souls_for_update_1" />
+    <Field Def="s32 shop_lineup_souls_for_update_2" />
   </Fields>
 </PARAMDEF>

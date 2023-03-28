@@ -8,6 +8,6 @@
   <Fields>
     <Field Def="f32 Unk00" />
     <Field Def="f32 Unk04" />
-    <Field Def="s32 Wet Aspect ID" />
+    <Field Def="s32 wet_aspect_id" />
   </Fields>
 </PARAMDEF>

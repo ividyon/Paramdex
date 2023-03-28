@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PARAMDEF XmlVersion="1">
   <ParamType>PLAYER_LIGHT_PARAM</ParamType>
-  <DataVersion>2</DataVersion>
+  <DataVersion>1</DataVersion>
   <BigEndian>False</BigEndian>
   <Unicode>True</Unicode>
   <FormatVersion>201</FormatVersion>
   <Fields>
-    <Field Def="f32 Offset X" />
-    <Field Def="f32 Offset Y" />
-    <Field Def="f32 Offset Z" />
-    <Field Def="u8 Diffuse R = 255" />
-    <Field Def="u8 Diffuse G = 255" />
-    <Field Def="u8 Diffuse B = 255" />
-    <Field Def="u8 Diffuse A = 255" />
-    <Field Def="u8 Specular R = 255" />
-    <Field Def="u8 Specular G = 255" />
-    <Field Def="u8 Specular B = 255" />
-    <Field Def="u8 Specular A = 255" />
-    <Field Def="s16 Diffuse Intensity = 255" />
-    <Field Def="s16 Specular Intensity = 255" />
-    <Field Def="f32 Radius" />
-    <Field Def="f32 Unk1C" />
-    <Field Def="f32 Shadow Strength" />
-    <Field Def="s16 Unk24" />
-    <Field Def="s16 Unk26" />
-    <Field Def="f32 Unk28" />
-    <Field Def="f32 Unk2C" />
-    <Field Def="f32 Unk30" />
-    <Field Def="f32 Unk34" />
-    <Field Def="u32 Cast Shadows:1" />
+    <Field Def="f32 offset_x" />
+    <Field Def="f32 offset_y" />
+    <Field Def="f32 offset_z" />
+    <Field Def="u8 diffuse_color_r" />
+    <Field Def="u8 diffuse_color_g" />
+    <Field Def="u8 diffuse_color_b" />
+    <Field Def="u8 diffuse_color_a" />
+    <Field Def="u8 specular_color_r" />
+    <Field Def="u8 specular_color_g" />
+    <Field Def="u8 specular_color_b" />
+    <Field Def="u8 specular_color_a" />
+    <Field Def="s16 diffuse_color_intensity" />
+    <Field Def="s16 specular_color_intensity" />
+    <Field Def="f32 light_radius" />
+    <Field Def="f32 Unk00" />
+    <Field Def="f32 shadow_strength" />
+    <Field Def="s16 Unk01" />
+    <Field Def="s16 Unk02" />
+    <Field Def="f32 Unk03" />
+    <Field Def="f32 Unk04" />
+    <Field Def="f32 Unk05" />
+    <Field Def="f32 Unk06" />
+    <Field Def="u32 can_cast_shadows" />
   </Fields>
 </PARAMDEF>
